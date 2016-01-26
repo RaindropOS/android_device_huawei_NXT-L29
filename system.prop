@@ -1,0 +1,55 @@
+# Make keys in CWM repeatable
+ro.cwm.enable_key_repeat=true
+
+# THIS NEEDS TO BE CLEANED UP
+ro.config.mmu_en=1
+dalvik.vm.heapsize=512m
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=384m
+dalvik.vm.heaptargetutilization=0.75
+ro.opengles.version=196609
+ro.sf.lcd_density=480
+hw.lcd.density=480
+persist.fw.force_adoptable=true
+dalvik.vm.checkjni=false
+ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
+ro.config.keypasstouser=true
+ro.config.hw_navigationbar=true
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.magic.api.version=0.1
+persist.sys.jankenable=true
+ro.hdmi.service=false
+ro.product.platform.pseudonym=1ARB9CV
+ro.hwui.texture_cache_size=48
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.layer_cache_size=48
+ro.hwui.path_cache_size=32
+ro.hwui.shape_cache_size=2
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.gradient_cache_size=1
+ro.hwui.text_large_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_small_cache_width=1024
+ro.hwui.r_buffer_cache_size=8
+debug.hwui.render_dirty_regions=false
+ro.config.hw_music_lp=true
+ro.tui.service=true
+ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
+ro.connectivity.chiptype=Broadcom BCM43455
+ro.config.hw_sensorhub=true
+keyguard.no_require_sim=true
+ro.sys.umsdirtyratio=2
+build.hisi_perf_opt=true
+use_sensorhub_labc=false
+bastet.service.enable=true
+sys.refresh.dirty=1
+ro.config.hw_perfhub=true
+ro.config.multi_task_enable=true
+persist.sys.smart_power=2
+debug.choreographer.skipwarning=15
+ro.product.cpuinfo.normal=Hisilicon Kirin 950
+ro.product.cpuinfo.high=Hisilicon Kirin 950
+ro.product.cpuinfo.highhigh=Hisilicon Kirin 950
+
+
