@@ -1,11 +1,11 @@
 # Get the prebuilt list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/raindrop/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/raindrop/config/common.mk)
 
 LOCAL_PATH := device/huawei/next
 
@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := next
-PRODUCT_NAME := omni_next
+PRODUCT_NAME := raindrop_next
 PRODUCT_BRAND := huawei
 PRODUCT_MANUFACTURER := huawei
 PRODUCT_MODEL := NXT-L29
