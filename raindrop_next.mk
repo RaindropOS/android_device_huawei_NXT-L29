@@ -19,7 +19,6 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
-    $(LOCAL_PATH)/recovery/sbin/healthd:root/sbin/healthd
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := next
