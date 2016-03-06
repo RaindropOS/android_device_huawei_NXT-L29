@@ -45,6 +45,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
+TW_INCLUDE_CRYPTO := true
 TW_NO_USB_STORAGE := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/hisi_fb.1048577/leds/lcd_backlight0/brightness"
