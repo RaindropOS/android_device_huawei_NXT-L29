@@ -1,12 +1,19 @@
-# mount point	fstype	         device			                             [device2]               flags
+# blk_device                                    mount_point fs_type
+/system         ext4        /dev/block/platform/hi_mci.0/by-name/system
+/cache          ext4        /dev/block/platform/hi_mci.0/by-name/cache
+/data           ext4        /dev/block/platform/hi_mci.0/by-name/userdata           length=-16384
+/misc           emmc        /dev/block/platform/hi_mci.0/by-name/misc
+/boot           emmc        /dev/block/platform/hi_mci.0/by-name/boot
+/recovery       emmc        /dev/block/platform/hi_mci.0/by-name/recovery
+/recovery2      emmc        /dev/block/platform/hi_mci.0/by-name/recovery2
+/cust           ext4        /dev/block/platform/hi_mci.0/by-name/cust
+/uboot          emmc        /dev/block/platform/hi_mci.0/by-name/uboot
+/splash2        ext4        /dev/block/platform/hi_mci.0/by-name/splash2
+/3rdmodem       ext4        /dev/block/platform/hi_mci.0/by-name/3rdmodem
+/newsys         ext4        /dev/block/platform/hi_mci.0/by-name/system
+/mnvm1:0        ext4        /dev/block/platform/hi_mci.0/by-name/modemnvm1
+/mnvm2:0        ext4        /dev/block/platform/hi_mci.0/by-name/modemnvm2
+/mnvm3:0        ext4        /dev/block/platform/hi_mci.0/by-name/modemlog
 
-/boot		emmc		/dev/block/platform/hi_mci.0/by-name/boot
-/cache		ext4		/dev/block/platform/hi_mci.0/by-name/cache
-/data		ext4		/dev/block/platform/hi_mci.0/by-name/userdata        length=-16384
-/misc		emmc		/dev/block/platform/hi_mci.0/by-name/misc   
-/recovery	emmc		/dev/block/platform/hi_mci.0/by-name/recovery 
-/system		ext4		/dev/block/platform/hi_mci.0/by-name/system
-
-/external_sd        vfat        /dev/block/mmcblk1p1                                 /dev/block/mmcblk1	     flags=display="External SD";storage;wipeingui;removable
-/otg		    vfat	/dev/block/sda1                                      /dev/block/sda1         flags=display="USB OTG";storage;wipeingui;removable
-
+/external_sd    vfat        /dev/block/mmcblk1p1      /dev/block/mmcblk1	    flags=display="External SD";storage;wipeingui;removable
+/otg		vfat	    /dev/block/sda1           /dev/block/sda1               flags=display="USB OTG";storage;wipeingui;removable
