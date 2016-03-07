@@ -40,6 +40,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_stora
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 #TWRP
 BOARD_HAS_NO_SELECT_BUTTON := true
