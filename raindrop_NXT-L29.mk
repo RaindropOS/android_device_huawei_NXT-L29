@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/raindrop/config/common.mk)
 
-LOCAL_PATH := device/huawei/next
+LOCAL_PATH := device/huawei/NXT-L29
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -21,8 +21,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := next
-PRODUCT_NAME := raindrop_next
+PRODUCT_DEVICE := NXT-L29
+PRODUCT_NAME := raindrop_NXT-L29
 PRODUCT_BRAND := huawei
 PRODUCT_MANUFACTURER := huawei
 PRODUCT_MODEL := NXT-L29
